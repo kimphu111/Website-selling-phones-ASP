@@ -1,0 +1,17 @@
+d:\nam4\SA\ProjectTIen\BE\PhoneShopApp.BE.Infrastructure\bin\Debug\net9.0\PhoneShopApp.BE.Infrastructure.deps.json
+d:\nam4\SA\ProjectTIen\BE\PhoneShopApp.BE.Infrastructure\bin\Debug\net9.0\PhoneShopApp.BE.Infrastructure.runtimeconfig.json
+d:\nam4\SA\ProjectTIen\BE\PhoneShopApp.BE.Infrastructure\bin\Debug\net9.0\PhoneShopApp.BE.Infrastructure.dll
+d:\nam4\SA\ProjectTIen\BE\PhoneShopApp.BE.Infrastructure\bin\Debug\net9.0\PhoneShopApp.BE.Infrastructure.pdb
+d:\nam4\SA\ProjectTIen\BE\PhoneShopApp.BE.Infrastructure\bin\Debug\net9.0\PhoneShopApp.BE.Core.dll
+d:\nam4\SA\ProjectTIen\BE\PhoneShopApp.BE.Infrastructure\bin\Debug\net9.0\PhoneShopApp.BE.Core.pdb
+d:\nam4\SA\ProjectTIen\BE\PhoneShopApp.BE.Infrastructure\obj\Debug\net9.0\PhoneShopApp.BE.Infrastructure.csproj.AssemblyReference.cache
+d:\nam4\SA\ProjectTIen\BE\PhoneShopApp.BE.Infrastructure\obj\Debug\net9.0\PhoneShopApp.BE.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+d:\nam4\SA\ProjectTIen\BE\PhoneShopApp.BE.Infrastructure\obj\Debug\net9.0\PhoneShopApp.BE.Infrastructure.AssemblyInfoInputs.cache
+d:\nam4\SA\ProjectTIen\BE\PhoneShopApp.BE.Infrastructure\obj\Debug\net9.0\PhoneShopApp.BE.Infrastructure.AssemblyInfo.cs
+d:\nam4\SA\ProjectTIen\BE\PhoneShopApp.BE.Infrastructure\obj\Debug\net9.0\PhoneShopApp.BE.Infrastructure.csproj.CoreCompileInputs.cache
+d:\nam4\SA\ProjectTIen\BE\PhoneShopApp.BE.Infrastructure\obj\Debug\net9.0\PhoneSho.8499B524.Up2Date
+d:\nam4\SA\ProjectTIen\BE\PhoneShopApp.BE.Infrastructure\obj\Debug\net9.0\PhoneShopApp.BE.Infrastructure.dll
+d:\nam4\SA\ProjectTIen\BE\PhoneShopApp.BE.Infrastructure\obj\Debug\net9.0\refint\PhoneShopApp.BE.Infrastructure.dll
+d:\nam4\SA\ProjectTIen\BE\PhoneShopApp.BE.Infrastructure\obj\Debug\net9.0\PhoneShopApp.BE.Infrastructure.pdb
+d:\nam4\SA\ProjectTIen\BE\PhoneShopApp.BE.Infrastructure\obj\Debug\net9.0\PhoneShopApp.BE.Infrastructure.genruntimeconfig.cache
+d:\nam4\SA\ProjectTIen\BE\PhoneShopApp.BE.Infrastructure\obj\Debug\net9.0\ref\PhoneShopApp.BE.Infrastructure.dll

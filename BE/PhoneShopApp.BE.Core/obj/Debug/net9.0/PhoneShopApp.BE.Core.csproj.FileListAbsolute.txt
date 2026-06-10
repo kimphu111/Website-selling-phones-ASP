@@ -1,0 +1,11 @@
+d:\nam4\SA\ProjectTIen\BE\PhoneShopApp.BE.Core\bin\Debug\net9.0\PhoneShopApp.BE.Core.deps.json
+d:\nam4\SA\ProjectTIen\BE\PhoneShopApp.BE.Core\bin\Debug\net9.0\PhoneShopApp.BE.Core.dll
+d:\nam4\SA\ProjectTIen\BE\PhoneShopApp.BE.Core\bin\Debug\net9.0\PhoneShopApp.BE.Core.pdb
+d:\nam4\SA\ProjectTIen\BE\PhoneShopApp.BE.Core\obj\Debug\net9.0\PhoneShopApp.BE.Core.GeneratedMSBuildEditorConfig.editorconfig
+d:\nam4\SA\ProjectTIen\BE\PhoneShopApp.BE.Core\obj\Debug\net9.0\PhoneShopApp.BE.Core.AssemblyInfoInputs.cache
+d:\nam4\SA\ProjectTIen\BE\PhoneShopApp.BE.Core\obj\Debug\net9.0\PhoneShopApp.BE.Core.AssemblyInfo.cs
+d:\nam4\SA\ProjectTIen\BE\PhoneShopApp.BE.Core\obj\Debug\net9.0\PhoneShopApp.BE.Core.csproj.CoreCompileInputs.cache
+d:\nam4\SA\ProjectTIen\BE\PhoneShopApp.BE.Core\obj\Debug\net9.0\PhoneShopApp.BE.Core.dll
+d:\nam4\SA\ProjectTIen\BE\PhoneShopApp.BE.Core\obj\Debug\net9.0\refint\PhoneShopApp.BE.Core.dll
+d:\nam4\SA\ProjectTIen\BE\PhoneShopApp.BE.Core\obj\Debug\net9.0\PhoneShopApp.BE.Core.pdb
+d:\nam4\SA\ProjectTIen\BE\PhoneShopApp.BE.Core\obj\Debug\net9.0\ref\PhoneShopApp.BE.Core.dll

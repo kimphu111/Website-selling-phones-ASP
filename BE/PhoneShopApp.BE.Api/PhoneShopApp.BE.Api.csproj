@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="9.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.16" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PhoneShopApp.BE.Services\PhoneShopApp.BE.Services.csproj" />
+    <ProjectReference Include="..\PhoneShopApp.BE.Infrastructure\PhoneShopApp.BE.Infrastructure.csproj" />
+    <ProjectReference Include="..\PhoneShopApp.BE.Core\PhoneShopApp.BE.Core.csproj" />
+  </ItemGroup>
+
+</Project>

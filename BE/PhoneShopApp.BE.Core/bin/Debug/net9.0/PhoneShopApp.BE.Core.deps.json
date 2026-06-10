@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "PhoneShopApp.BE.Core/1.0.0": {
+        "runtime": {
+          "PhoneShopApp.BE.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PhoneShopApp.BE.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

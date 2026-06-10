@@ -1,0 +1,38 @@
+@model PhoneShopApp.FE.Web.Models.Auth.LoginViewModel
+@{
+    ViewData["Title"] = "Login";
+}
+
+<section class="auth-shell">
+    <div class="auth-card">
+        <h1>Welcome back</h1>
+        <p class="subtitle">Sign in to access the PhoneShop management dashboard.</p>
+
+        <form asp-action="Login" method="post">
+            @Html.AntiForgeryToken()
+            <div asp-validation-summary="ModelOnly" class="text-danger mb-3" style="font-size:0.8125rem;"></div>
+
+            <div class="form-group">
+                <label asp-for="Username" class="form-label-custom">Username</label>
+                <input asp-for="Username" class="form-control-custom" placeholder="Enter your username" autocomplete="username" />
+                <span asp-validation-for="Username" class="text-danger" style="font-size:0.75rem;"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Password" class="form-label-custom">Password</label>
+                <input asp-for="Password" class="form-control-custom" type="password" placeholder="Enter your password" autocomplete="current-password" />
+                <span asp-validation-for="Password" class="text-danger" style="font-size:0.75rem;"></span>
+            </div>
+
+            <button type="submit" class="btn-submit">Sign In <i class="bi bi-arrow-right"></i></button>
+        </form>
+
+        <p class="text-muted text-center mt-3" style="font-size:0.75rem;">
+            Default credentials: admin / admin123
+        </p>
+    </div>
+</section>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
