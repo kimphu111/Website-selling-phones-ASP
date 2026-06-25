@@ -100,3 +100,4 @@ d:\nam4\SA\ProjectTIen\FE\PhoneShopApp.FE.Web\obj\Debug\net9.0\refint\PhoneShopA
 d:\nam4\SA\ProjectTIen\FE\PhoneShopApp.FE.Web\obj\Debug\net9.0\PhoneShopApp.FE.Web.pdb
 d:\nam4\SA\ProjectTIen\FE\PhoneShopApp.FE.Web\obj\Debug\net9.0\PhoneShopApp.FE.Web.genruntimeconfig.cache
 d:\nam4\SA\ProjectTIen\FE\PhoneShopApp.FE.Web\obj\Debug\net9.0\ref\PhoneShopApp.FE.Web.dll
+D:\nam4\SA\ProjectTIen\FE\PhoneShopApp.FE.Web\obj\Debug\net9.0\PhoneShopApp.FE.Web.sourcelink.json

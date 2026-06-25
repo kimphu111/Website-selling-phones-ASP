@@ -23,6 +23,7 @@ public class BackendApiClient
         var payload = JsonSerializer.Serialize(new { username, password });
         var content = new StringContent(payload, Encoding.UTF8, "application/json");
 
+// 
         var response = await client.PostAsync("/api/auth/login", content, cancellationToken);
         if (!response.IsSuccessStatusCode)
         {

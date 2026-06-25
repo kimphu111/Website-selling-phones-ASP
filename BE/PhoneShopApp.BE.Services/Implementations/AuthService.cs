@@ -17,28 +17,37 @@ public class AuthService : IAuthService
         _configuration = configuration;
     }
 
-    public async Task<LoginResponseDto?> LoginAsync(LoginRequestDto request, CancellationToken cancellationToken = default)
+public async Task<LoginResponseDto?> LoginAsync(LoginRequestDto request, CancellationToken cancellationToken = default)
+{
+    try
     {
-        try
+        Console.WriteLine($"[DEBUG-LOGIN] Đang tìm user: '{request.Username}'");
+        var user = await _userRepository.GetByUsernameAsync(request.Username, cancellationToken);
+        
+        if (user is null)
         {
-            var user = await _userRepository.GetByUsernameAsync(request.Username, cancellationToken);
-            if (user is null)
-            {
-                return null;
-            }
-
-            var inputHash = PasswordHasher.Hash(request.Password);
-            if (!string.Equals(inputHash, user.PasswordHash, StringComparison.OrdinalIgnoreCase))
-            {
-                return null;
-            }
-
-            return JwtTokenGeneratorSingleton.Instance.GenerateToken(user, _configuration);
+            Console.WriteLine($"[DEBUG-LOGIN] THẤT BẠI: Không tìm thấy user '{request.Username}' trong Database!");
+            return null;
         }
-        catch (Exception ex)
+
+        Console.WriteLine($"[DEBUG-LOGIN] Tìm thấy user. PasswordHash trong DB là: '{user.PasswordHash}'");
+        
+        var inputHash = PasswordHasher.Hash(request.Password);
+        Console.WriteLine($"[DEBUG-LOGIN] PasswordHash người dùng nhập là: '{inputHash}'");
+
+        if (!string.Equals(inputHash, user.PasswordHash, StringComparison.OrdinalIgnoreCase))
         {
-            Console.WriteLine($"[AUTH ERROR] Database issue: {ex.Message}");
-            throw; 
+            Console.WriteLine("[DEBUG-LOGIN] THẤT BẠI: Hai chuỗi Hash không khớp nhau!");
+            return null;
         }
+
+        Console.WriteLine("[DEBUG-LOGIN] THÀNH CÔNG: Mật khẩu đúng, đang tạo Token...");
+        return JwtTokenGeneratorSingleton.Instance.GenerateToken(user, _configuration);
     }
+    catch (Exception ex)
+    {
+        Console.WriteLine($"[AUTH ERROR] Database issue: {ex.Message}");
+        throw; 
+    }
+}
 }

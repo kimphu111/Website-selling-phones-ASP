@@ -25,7 +25,8 @@ public class PhoneShopFacade : IPhoneShopFacade
         return _userService.CreateAsync(dto, cancellationToken);
     }
 
-    public Task<List<PhoneDto>> SearchPhonesAsync(string? keyword, string? searchBy, CancellationToken cancellationToken = default)
+    public Task<List<PhoneDto>> SearchPhonesAsync(string? keyword, string? searchBy, 
+    CancellationToken cancellationToken = default)
     {
         return _phoneService.SearchAsync(keyword, searchBy, cancellationToken);
     }

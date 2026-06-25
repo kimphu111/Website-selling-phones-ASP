@@ -1,4 +1,4 @@
-CREATE DATABASE phone_shop_app;
+CREATE DATABASE IF NOT EXISTS phone_shop_app;
 
 USE phone_shop_app;
 

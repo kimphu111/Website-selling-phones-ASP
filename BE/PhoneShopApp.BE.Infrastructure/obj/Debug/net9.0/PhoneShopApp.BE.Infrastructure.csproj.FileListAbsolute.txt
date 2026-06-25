@@ -15,3 +15,4 @@ d:\nam4\SA\ProjectTIen\BE\PhoneShopApp.BE.Infrastructure\obj\Debug\net9.0\refint
 d:\nam4\SA\ProjectTIen\BE\PhoneShopApp.BE.Infrastructure\obj\Debug\net9.0\PhoneShopApp.BE.Infrastructure.pdb
 d:\nam4\SA\ProjectTIen\BE\PhoneShopApp.BE.Infrastructure\obj\Debug\net9.0\PhoneShopApp.BE.Infrastructure.genruntimeconfig.cache
 d:\nam4\SA\ProjectTIen\BE\PhoneShopApp.BE.Infrastructure\obj\Debug\net9.0\ref\PhoneShopApp.BE.Infrastructure.dll
+D:\nam4\SA\ProjectTIen\BE\PhoneShopApp.BE.Infrastructure\obj\Debug\net9.0\PhoneShopApp.BE.Infrastructure.sourcelink.json

@@ -884,9 +884,6 @@ Dự án này là một **ứng dụng ASP.NET Core hoàn chỉnh** với:
 | **DI (Dependency Injection)** | Toàn bộ service/repository được inject qua constructor |
 
 
- Đã hoàn tất — File EXPLANATION.md giải thích chi tiết toàn bộ dự án
-Tôi đã tạo file EXPLANATION.md với 8 phần, bao gồm:
-
 📖 Nội dung file giải thích
 Phần	Nội dung
 1. Tổng quan kiến trúc	Sơ đồ N-Layers: FE (MVC) → BE (API) → Services → Infrastructure → MySQL

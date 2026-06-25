@@ -1,0 +1,43 @@
+version: '3.8'
+
+services:
+  # 1. Thêm service MySQL Database
+  mysql-db:
+    image: mysql:8.0 # Hoặc mysql:latest tùy bạn
+    container_name: phoneshop-db
+    environment:
+      MYSQL_ROOT_PASSWORD: 1234
+      MYSQL_DATABASE: phone_shop_app
+    ports:
+      - "3307:3306" # <-- ĐÃ SỬA: Map ra cổng 3307 của máy thật để không bị trùng
+    volumes:
+      # Ánh xạ file data.sql vào thư mục khởi tạo tự động của MySQL
+      - ./data.sql:/docker-entrypoint-initdb.d/data.sql
+    restart: unless-stopped
+
+  # 2. Service Backend
+  backend-api:
+    build:
+      context: .
+      dockerfile: BE/PhoneShopApp.BE.Api/Dockerfile
+    container_name: phoneshop-backend
+    ports:
+      - "5201:8080"
+    environment:
+      # Ghi đè cấu hình kết nối: Vẫn giữ nguyên Port=3306 vì kết nối nội bộ trong Docker
+      - ConnectionStrings__MySql=Server=mysql-db;Port=3306;Database=phone_shop_app;User=root;Password=1234;
+    depends_on:
+      - mysql-db # Bắt buộc DB phải chạy lên trước rồi mới tới Backend
+
+  # 3. Service Frontend
+  frontend-web:
+    build:
+      context: .
+      dockerfile: FE/PhoneShopApp.FE.Web/Dockerfile
+    container_name: phoneshop-frontend
+    ports:
+      - "5001:8080"
+    environment:
+      - BackendApi__BaseUrl=http://backend-api:8080
+    depends_on:
+      - backend-api

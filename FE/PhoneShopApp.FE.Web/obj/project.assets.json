@@ -249,11 +249,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\nam4\\SA\\ProjectTIen\\FE\\PhoneShopApp.FE.Web\\PhoneShopApp.FE.Web.csproj",
+      "projectUniqueName": "D:\\nam4\\SA\\ProjectTIen\\FE\\PhoneShopApp.FE.Web\\PhoneShopApp.FE.Web.csproj",
       "projectName": "PhoneShopApp.FE.Web",
-      "projectPath": "d:\\nam4\\SA\\ProjectTIen\\FE\\PhoneShopApp.FE.Web\\PhoneShopApp.FE.Web.csproj",
+      "projectPath": "D:\\nam4\\SA\\ProjectTIen\\FE\\PhoneShopApp.FE.Web\\PhoneShopApp.FE.Web.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "d:\\nam4\\SA\\ProjectTIen\\FE\\PhoneShopApp.FE.Web\\obj\\",
+      "outputPath": "D:\\nam4\\SA\\ProjectTIen\\FE\\PhoneShopApp.FE.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -316,7 +316,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.314/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.315/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

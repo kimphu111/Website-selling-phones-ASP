@@ -15,3 +15,4 @@ d:\nam4\SA\ProjectTIen\BE\PhoneShopApp.BE.Services\obj\Debug\net9.0\PhoneShopApp
 d:\nam4\SA\ProjectTIen\BE\PhoneShopApp.BE.Services\obj\Debug\net9.0\refint\PhoneShopApp.BE.Services.dll
 d:\nam4\SA\ProjectTIen\BE\PhoneShopApp.BE.Services\obj\Debug\net9.0\PhoneShopApp.BE.Services.pdb
 d:\nam4\SA\ProjectTIen\BE\PhoneShopApp.BE.Services\obj\Debug\net9.0\ref\PhoneShopApp.BE.Services.dll
+D:\nam4\SA\ProjectTIen\BE\PhoneShopApp.BE.Services\obj\Debug\net9.0\PhoneShopApp.BE.Services.sourcelink.json

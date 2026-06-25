@@ -49,3 +49,4 @@ d:\nam4\SA\ProjectTIen\BE\PhoneShopApp.BE.Api\obj\Debug\net9.0\refint\PhoneShopA
 d:\nam4\SA\ProjectTIen\BE\PhoneShopApp.BE.Api\obj\Debug\net9.0\PhoneShopApp.BE.Api.pdb
 d:\nam4\SA\ProjectTIen\BE\PhoneShopApp.BE.Api\obj\Debug\net9.0\PhoneShopApp.BE.Api.genruntimeconfig.cache
 d:\nam4\SA\ProjectTIen\BE\PhoneShopApp.BE.Api\obj\Debug\net9.0\ref\PhoneShopApp.BE.Api.dll
+D:\nam4\SA\ProjectTIen\BE\PhoneShopApp.BE.Api\obj\Debug\net9.0\PhoneShopApp.BE.Api.sourcelink.json
